@@ -9,7 +9,7 @@ h1 {
   font-family: Avenir, sans-serif;
   text-align: center;
   margin: 100px;
-  font-size: 50px;
+  font-size: 70px;
   color: #3bffe8;
   text-shadow: 0 0 10px #3bffe8, 0 0 30px #3bffe8, 0 0 80px #3bffe8;
   animation: animate 1s linear infinite;
@@ -37,28 +37,48 @@ h1 {
   }
 }
 .plateau {
-  margin: 115px;
+  margin-left: 620px;
+  height: auto;
   display: grid;
   grid-template-columns: repeat(19, 40px);
   grid-template-rows: repeat(22, 40px);
 }
 .mur {
-  background-image: url(../img/mur.gif);
+  background-color: aquamarine;
+  box-shadow: 0 0 10px #3bffe8, 0 0 30px #3bffe8, 0 0 80px #3bffe8;
+  /*animation: animate 0.5s linear infinite;*/
 }
 .sol {
-  background-image: url(../img/sol.gif);
+  background-color: black;
+  animation: animate 0.5s linear infinite;
 }
 .bonbon {
-  background-image: url(../img/bonbon.gif);
+  margin: 10px;
+  background-color: yellow;
+  border: yellow solid 2px;
+  border-radius: 50%;
+  width: 20px;
+  height: auto;
 }
 .pacman {
   background-image: url(../img/pacman4.gif);
+}
+.score {
+  margin: 50px;
+  color: #3bffe8;
+  font-size: 50px;
 }
 .fantome {
   background-image: url(../img/fantome0.gif);
 }
 .fantome1 {
   background-image: url(../img/fantome1.gif);
+}
+.fantome2 {
+  background-image: url(../img/fantome2.gif);
+}
+.fantome3 {
+  background-image: url(../img/fantome3.gif);
 }
 #monHorloge {
   color: whitesmoke;
